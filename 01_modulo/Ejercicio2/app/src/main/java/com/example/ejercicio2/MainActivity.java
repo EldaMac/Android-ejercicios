@@ -3,6 +3,7 @@ package com.example.ejercicio2;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.EditText;
+import android.widget.RadioButton;
 import android.widget.Toast;
 
 import butterknife.BindView;
@@ -17,9 +18,9 @@ public class MainActivity extends AppCompatActivity {
     EditText txtNumero2;
 
     @BindView(R.id.rdsuma)
-    EditText rdsuma;
+    RadioButton rdsuma;
     @BindView(R.id.rdresta)
-    EditText rdresta;
+    RadioButton rdresta;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
