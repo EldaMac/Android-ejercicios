@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">Ejercicio2</string>
-    <string name="btn_boton">Calculo</string>
-    <string name="srt_suma">Suma</string>
-    <string name="srt_resta">Resta</string>
-</resources>
