@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.CheckBox;
+import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
     EditText editText;
@@ -34,11 +35,12 @@ public class MainActivity extends AppCompatActivity {
         chkItalic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(chkItalic.isChecked())
+                if (chkItalic.isChecked())
                     editText.setTypeface(null, Typeface.ITALIC);
                 else
                     editText.setTypeface(null, Typeface.NORMAL);
             }
         });
     }
-}
+    }
+
