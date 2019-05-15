@@ -17,7 +17,8 @@
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/txtNum2"
@@ -78,14 +79,14 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnOperacion"
-        app:layout_constraintVertical_bias="0.144" />
+        app:layout_constraintVertical_bias="0.078" />
 
     <RadioGroup
-        android:layout_width="142dp"
-        android:layout_height="142dp"
-        android:layout_marginTop="56dp"
+        android:layout_width="150dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="36dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.026"
+        app:layout_constraintHorizontal_bias="0.007"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtNum2" />
 

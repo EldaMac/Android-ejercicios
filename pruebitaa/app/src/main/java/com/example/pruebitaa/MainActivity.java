@@ -1,4 +1,4 @@
-package com.example.sumackeck;
+package com.example.pruebitaa;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -9,7 +9,6 @@ import android.widget.RadioButton;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-
     EditText varTxtNum1;
     EditText varTxtNum2;
     RadioButton varRdSuma;
@@ -32,20 +31,20 @@ public class MainActivity extends AppCompatActivity {
         varButton = (Button) findViewById(R.id.btnOperacion);
         txtResultado = (TextView) findViewById(R.id.txtResultado);
 
-            //Evento del boton
+        //Evento del boton
 
-            varButton.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    int resultado = 0;
-                    int num1 = Integer.parseInt(varTxtNum1.getText().toString());
-                    int num2 = Integer.parseInt(varTxtNum1.getText().toString());
-                    if (varRdSuma.isChecked())
-                        resultado = num1 + num2;
-                    else
-                        resultado = num1 - num2;
-                    txtResultado.setText("El resultado es " + resultado);
-                }
-            });
-        }
+        varButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                int resultado = 0;
+                int num1 = Integer.parseInt(varTxtNum1.getText().toString());
+                int num2 = Integer.parseInt(varTxtNum1.getText().toString());
+                if (varRdSuma.isChecked())
+                    resultado = num1 + num2;
+                else
+                    resultado = num1 - num2;
+                txtResultado.setText("El resultado es " + resultado);
+            }
+        });
     }
+}
