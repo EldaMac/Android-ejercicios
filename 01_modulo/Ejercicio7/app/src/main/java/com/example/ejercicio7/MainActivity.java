@@ -15,7 +15,6 @@ public class MainActivity extends AppCompatActivity {
 
     float density;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         density = displayMetrics.densityDpi;
 
         //Buscamos las variables
+        //
 
         imagen = (ImageView) findViewById(R.id.imageView);
         seekBar = (SeekBar) findViewById(R.id.seekBar);
